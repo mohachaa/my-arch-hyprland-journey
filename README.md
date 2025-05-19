@@ -10,3 +10,25 @@
 - Windows 10/11
 - USB 8GB or higher
 - 50GB or higher free space
+
+## Create Free Space for ArchLinux
+- go to *Disk Management*
+- in the C drive shrink a free space (50GB or higher) for Arch btw
+## Download ArchLinux
+## Create a System Restore Point
+## Disable Bit-Locker
+## Creating Bootable USB W/ ARCH
+## Modify BIOS Settings
+## Using **iWCTL** for Wi-Fi Connection
+## Creating Partitions For Arch Linux
+## Formatting Partitions
+## Mounting Partitions
+## Installing Base System13:55 Generate File System Table (FSTAB)
+## CHRooting to Newley installed system
+## Change Root Password
+## Adding a Stander User
+## Setting Up Timezone/Region
+## Setiing a System Language
+## Setting a Host Na;e
+## Grub-Installation 
+## Connecting to Wi-Fi using NMCLI
