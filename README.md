@@ -1,10 +1,10 @@
 # my-arch-hyprland-journey
 
-![arch-i-use-arch-btw](https://github.com/user-attachments/assets/07acf7b1-9322-46cd-b3a0-d51dd0859532)
-
 *Arch Linux + Hyprland as absolute beginner*
 
 # INSTALLING ARCH LINUX
+
+![arch-i-use-arch-btw](https://github.com/user-attachments/assets/07acf7b1-9322-46cd-b3a0-d51dd0859532)
 
 **Followed this [Youtube guide](https://youtu.be/1J_Z_pzzbMo?si=h1Wee8-VfmtQVQAS). or go the step by step, i made:**
 
