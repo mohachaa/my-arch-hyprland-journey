@@ -62,8 +62,10 @@
 Offical Getting Started in [Hyprland Installation](https://wiki.hyprland.org/Getting-Started/Installation/) 
 
 in tty i did 
-<pre> setfont -d 
-sudo loadkeys fr </pre>
+<pre>
+setfont -d         #if the scale is too small
+sudo loadkeys fr   #to change keyboard layout from en to fr in my case
+</pre>
 
 
 
