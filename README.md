@@ -67,11 +67,8 @@ setfont -d         #if the scale is too small
 sudo loadkeys fr   #to change keyboard layout from en to fr in my case
 </pre>
 
-
-
-
-
-
+and then install hyprland kitty firefox xdg
+<pre>pacman -S hyprland kitty firefox xdg-desktop-portal-hyprland</pre>
 
 
 
