@@ -32,7 +32,7 @@ and then i was able to install hyprland and kitty,
 1 - i installed wireplumber pavucontrol playerctl pamixer
 <pre>yay -S wireplumber pavucontrol playerctl pamixer </pre>
 
-2 - Run wev (install with <pre> -S wev </pre>) and press your volume keys to see if they register
+2 - Run wev with <pre> -S wev </pre>) and press your volume keys to see if they register
 if they are not, we need to run <pre> yay -S evtest </pre> and search for "extra"" or "volume" to check they in the kernel,
 3 - once done checking go for next step ..
 
