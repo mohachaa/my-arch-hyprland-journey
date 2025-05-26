@@ -3,6 +3,7 @@
 *Arch Linux + Hyprland as absolute beginner*
 
 # ARCH LINUX
+dual boot win11 & arch
 ![arch-i-use-arch-btw](https://github.com/user-attachments/assets/07acf7b1-9322-46cd-b3a0-d51dd0859532)
 ## arch install
 followed this [Youtube guide](https://youtu.be/1J_Z_pzzbMo?si=h1Wee8-VfmtQVQAS). to install arch linux
