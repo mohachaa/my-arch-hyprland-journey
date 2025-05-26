@@ -1,74 +1,30 @@
-# my-arch-hyprland-journey
+# my arch hyprland journey
 
 *Arch Linux + Hyprland as absolute beginner*
 
-# INSTALLING ARCH LINUX
-
+# ARCH LINUX
 ![arch-i-use-arch-btw](https://github.com/user-attachments/assets/07acf7b1-9322-46cd-b3a0-d51dd0859532)
-
-**Followed this [Youtube guide](https://youtu.be/1J_Z_pzzbMo?si=h1Wee8-VfmtQVQAS). or go the step by step, i made:**
-
-### Pre-requisites ##
-- Windows 10/11
-- USB 8GB or higher
-- 50GB or higher free space
-
-### Create Free Space for ArchLinux
-- go to *Disk Management*
-- in the C drive shrink a free space (50GB or higher) for Arch btw
-
-### Download ArchLinux
-
-### Create a System Restore Point
-
-### Disable Bit-Locker
-
-### Creating Bootable USB W/ ARCH
-
-### Modify BIOS Settings
-
-### Using **iWCTL** for Wi-Fi Connection
-
-### Creating Partitions For Arch Linux
-
-### Formatting Partitions
-
-### Mounting Partitions
-
-### Installing Base System13:55 Generate File System Table (FSTAB)
-
-### CHRooting to Newley installed system
-
-### Change Root Password
-
-### Adding a Stander User
-
-### Setting Up Timezone/Region
-
-### Setiing a System Language
-
-### Setting a Host Name
-
-### Grub-Installation 
-
-### Connecting to Wi-Fi using NMCLI
-
-
-
-# HYPRLAND
-
-![hyprland-logo](https://github.com/user-attachments/assets/b5398999-a178-49e7-b2eb-0b17f8b0cb88) 
-
-Offical Getting Started in [Hyprland Installation](https://wiki.hyprland.org/Getting-Started/Installation/) 
-
-in tty i did 
+## arch install
+followed this [Youtube guide](https://youtu.be/1J_Z_pzzbMo?si=h1Wee8-VfmtQVQAS). to install arch linux
+##helpful things in tty
 <pre>
 setfont -d         #if the scale is too small
 sudo loadkeys fr   #to change keyboard layout from en to fr in my case
 </pre>
-
-and then install hyprland kitty firefox xdg
-<pre>pacman -S hyprland kitty firefox xdg-desktop-portal-hyprland</pre>
+## fix mirrorlist
+i fixed mirrorlist (outdated or broken)
+<pre> sudo pacman -Sy reflector </pre>
+<pre>sudo reflector --country France,Germany,Netherlands --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+</pre>
+replace those countries by your actual country or countries near to your place 
+<pre>sudo pacman -Syy</pre>
+and then i was able to install hyprland and kitty,
+# HYPRLAND
+![hyprland-logo](https://github.com/user-attachments/assets/b5398999-a178-49e7-b2eb-0b17f8b0cb88) 
+ although i was able to install hyrland and kitty after fixing mirrorlist, hyprland opened broken, kitty doesnt open , fonts not showing, i fixed this by installing
+ xdg-desktop-portal xdg-desktop-portal-hyprland 
+<pre>pacman -S hyprland kitty firefox xdg-desktop-portal xdg-desktop-portal-hyprland 
+</pre>
 
 
 
