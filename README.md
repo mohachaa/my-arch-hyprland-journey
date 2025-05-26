@@ -22,6 +22,7 @@ replace those countries by your actual country or countries near to your place
 and then i was able to install hyprland and kitty,
 # HYPRLAND
 ![hyprland-logo](https://github.com/user-attachments/assets/b5398999-a178-49e7-b2eb-0b17f8b0cb88) 
+ 
  although i was able to install hyrland and kitty after fixing mirrorlist, hyprland opened broken, kitty doesnt open , fonts not showing, i fixed this by installing
  xdg-desktop-portal xdg-desktop-portal-hyprland 
 <pre>pacman -S hyprland kitty firefox xdg-desktop-portal xdg-desktop-portal-hyprland 
