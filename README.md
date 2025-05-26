@@ -64,7 +64,7 @@ bind = , XF86AudioMute, exec, pamixer -t</pre>
 <pre>systemctl --user status pipewire pipewire-pulse wireplumber
 </pre>
 
-
+!you have to reboot after this!
 
 
 
